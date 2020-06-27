@@ -1,6 +1,7 @@
 package it.polito.tdp.poweroutages.model;
 
 public class Nerc {
+	
 	private int id;
 	private String value;
 
@@ -49,8 +50,6 @@ public class Nerc {
 
 	@Override
 	public String toString() {
-		StringBuilder builder = new StringBuilder();
-		builder.append(value);
-		return builder.toString();
+		return value;
 	}
 }
